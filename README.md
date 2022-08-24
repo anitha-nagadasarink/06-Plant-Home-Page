@@ -13,8 +13,8 @@
 
 ### Demo :
 
-![Web Site Image](https://github.com/anitha-nagadasarink/05-Crypto-Landing-page/blob/HTML-CSS-Projects/assets/demo.png)
+![Web Site Image](https://github.com/anitha-nagadasarink/06-Plant-Home-Page/blob/HTML-CSS-Projects/photos/demo.png)
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://new-crypto-landing-page.netlify.app/)
+[Live Link !](https://plant-shopping-webpage.netlify.app/)
