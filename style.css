@@ -1,0 +1,186 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+
+body {
+  background-color: #F4F3F8;
+  color: #000000;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;  
+}
+
+button{
+  cursor: pointer;
+}
+
+/* Navbar */
+
+#navbarMonstera{
+  display: block; 
+  max-width: 80%;
+  margin: auto;
+  padding: 50px 0 70px;   
+}
+
+
+#navbarMonstera::after  {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+#navbarMonstera > div {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+#navFirst{
+  width: 15%;
+}
+
+#navMid{
+  width: 70%; 
+  text-align: center;
+}
+
+#navMid > div {
+  display: inline-block;
+  margin-left: 70px;
+  float: left;
+}
+
+#navMid > div:first-child{
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+
+#navEnd{
+  width: 15%;
+  float: right;
+}
+#navEnd > div{
+  display: inline-block;
+  float:left; 
+  margin-right: 30px;
+}
+
+#navbarMonstera img {
+  width: 80px;
+}
+
+#navEnd img {
+  width: 15px;
+}
+
+
+/* Banner */
+#monstera {
+  color: #000000;
+  font-family: 'Allerta';
+  font-weight: bold;
+  font-size: 120px;
+  letter-spacing: -3px;
+}
+
+#midWholePart11 ul {
+  width: 48%;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  font-family: 'Abel';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#midWholePart121 h1 {
+  position: relative;
+  display: inline-block;
+  padding: 20px 70px 20px 50px;
+  border-radius: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  background-color: #466D50;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-bottom: 120px;
+}
+
+#midWholePart121 h1::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 30px;  
+  right: 35px; 
+  background: url('./photos/right-arrow.png') no-repeat;
+}
+
+#midWhole {
+  position: relative;
+}
+
+#imgMain {
+  position: absolute;
+  content: ' ';
+  width: 630px;
+  height: 830px;
+  top: 0;
+  right: 0;
+}
+
+#feeding {
+  width: 65px;
+  margin-right: 30px;
+}
+
+
+#midWholePart13 {
+  display: inline-block;
+  width: 830px;
+  float: left;
+  margin-left: 50px;
+}
+#midWholePart13 > div {
+  display: inline-block;
+  float: left;
+  width: 26%;  
+}
+
+#midWholePart13Parts {
+  display: inline-block;
+  float: left;
+}
+
+.midWholePart13Parts > div {
+  display: inline-block;
+  float: left;
+  width: 30.33%; 
+}
+
+.midWholePart13Parts > div:first-child {
+  width: 30%;
+}
+
+.midWholePart13Parts > div:last-child {
+   width: 70%;
+}
+
+.midWholePart13Parts h4 {
+  margin-bottom: 5px;
+  font-family: 'Allerta';
+  letter-spacing: 0;
+  font-size: 22px;
+}
+
+.midWholePart13Parts p {
+  color: #000000;
+  font-size: 14px;
+}
